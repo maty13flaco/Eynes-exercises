@@ -1,14 +1,3 @@
-"""
-Escribir una clase llamada circulo que contenga un radio, con un metodo que devuelva el area y otro que 
-devuelva el perimetro del circulo.
- * Si se instancia la clase con radio <= 0 mostrar una excepcion indicando un error amigable al usuario
-   e impidiendo la instanciacion.
- * Si printeamos el objeto creado debe mostrarse una representacion amigable.
- * El objeto debe tener su atributo radio modificable, si se intenta setear un valor <= 0 mostrar un error
-   y no permitir la modificacion.
- * Permitir la multiplicacion del cirulo: Circulo * n debe devolver un nuevo objeto con el radio
-   multiplicado por n. No permitir la multiplicacion por numeros <= 0.
-"""
 from math import pi
 
 
@@ -46,7 +35,7 @@ print(c1.get_radio())
 print(c1.get_area())
 print(c1.get_perimetro())
 
-c2 = Circulo(10) * 0
+c2 = Circulo(10) * 2
 print(c2.get_radio())
 print(c2.get_area())
 print(c2.get_perimetro())
