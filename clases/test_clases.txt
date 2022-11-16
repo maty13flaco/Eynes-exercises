@@ -1,0 +1,15 @@
+>>> from clases import Circulo
+
+>>> c1 = Circulo(10)
+
+>>> c1.get_radio()
+10
+>>> c1.get_area()
+314.16
+>>> c1.get_perimetro()
+62.83
+
+>>> c2 = Circulo(10) * 2
+
+>>> c2.get_radio()
+20
