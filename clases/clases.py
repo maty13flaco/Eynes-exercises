@@ -1,6 +1,5 @@
 from math import pi
 
-
 class Circulo:
     def __init__(self, radio) -> None:
         self.__radio = radio
@@ -39,6 +38,5 @@ c2 = Circulo(10) * 2
 print(c2.get_radio())
 print(c2.get_area())
 print(c2.get_perimetro())
-
 
 #print(Circulo(10))
